@@ -15,21 +15,21 @@ body{
 }
 
 #header{
-    background-color: rgb(163, 198, 246);
+    background-color: rgb(151, 194, 255);
     color: antiquewhite;
     text-align: center;
     padding: 20px;
 }
 
 nav{
-    background-color: rgb(118, 172, 233);
+    background-color: rgb(122, 180, 246);
 
 }
 nav li{
     margin: 0 15px;
 }
 nav a {
-    color: rgb(44, 30, 30);
+    color: rgb(35, 23, 23);
     text-decoration: none;
     padding: 13px;
     display: block;
