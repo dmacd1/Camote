@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Arial';
+}
+#contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header{
+    background-color: rgb(163, 198, 246);
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    background-color: rgb(118, 172, 233);
+
+}
+nav li{
+    margin: 0 15px;
+}
+nav a {
+    color: rgb(44, 30, 30);
+    text-decoration: none;
+    padding: 13px;
+    display: block;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover{
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    flex: 1;
+}
+
+.tarjeta{
+    background-color: bisque;
+    padding: 50px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+
+}
+
+.fooder{
+    background-color: aquamarine;
+    color: blanchedalmond;
+
+}
